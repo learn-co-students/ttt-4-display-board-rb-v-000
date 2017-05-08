@@ -1,0 +1,23 @@
+rows = ["   |   |   "]
+rows = ["-----------"]
+rows = ["   |   |   "]
+rows = ["-----------"]
+rows = ["   |   |   "]
+
+def display_board(row)
+puts row
+end
+
+puts "   |   |   "
+puts "-----------"
+puts "   |   |   "
+puts "-----------"
+puts "   |   |   "
+
+rows = ["   |   |   ", "-----------", "   |   |   ", "-----------", "   |   |   "]
+
+puts "#{board[0]}|#{board[1]}|#{board[2]}"
+puts "-----------"
+puts "#{board[3]}|#{board[4]}|#{board[5]}"
+puts "-----------"
+puts "#{board[6]}|#{board[7]}|#{board[8]}"
