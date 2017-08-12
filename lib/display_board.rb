@@ -3,27 +3,16 @@
 board = [" "," "," "," "," "," "," "," "," "]
 
 def display_board(board)
+  row_1 = " #{board[0]} | #{board[1]} | #{board[2]} "
+  row_2 = " #{board[3]} | #{board[4]} | #{board[5]} "
+  row_3 = " #{board[6]} | #{board[7]} | #{board[8]} "
+  border = "-----------"
 
-  print " #{board[0]} "
-  print "|"
-  print " #{board[1]} "
-  print "|"
-  puts " #{board[2]} "
-
-  puts "-----------"
-
-  print " #{board[3]} "
-  print "|"
-  print " #{board[4]} "
-  print "|"
-  puts " #{board[5]} "
-
-  puts "-----------"
-
-  print " #{board[4]} "
-  print "|"
-  print " #{board[5]} "
-  print "|"
-  puts " #{board[6]} "
-
+  puts row_1
+  puts border
+  puts row_2
+  puts border
+  puts row_3
 end
+
+display_board(board)
