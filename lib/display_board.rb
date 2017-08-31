@@ -1,6 +1,6 @@
 
 def display_board(board)
-  #puts board
+  #puts board and by the way I've changed something!
 
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
