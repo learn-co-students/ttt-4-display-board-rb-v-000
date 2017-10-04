@@ -2,18 +2,12 @@
 # out the current state.
 
 def display_board(board)
-  $board = [" "," ","X"," "," "," "," "," "," "]
-  $cell =  "   "
-  $vertical_lines = "|"
-  $horizontal_lines = "-----------"
-      2.times do
-      puts $cell + $vertical_lines + $cell + $vertical_lines + $cell
-      puts $horizontal_lines
-    end
-    puts $cell + $vertical_lines + $cell + $vertical_lines + $cell
-  end
-  # if board = 9 empty strings, print board
-  # else if board has one X, print board with one X 
-
+  horizontal_lines = "-----------"
+  puts " #{board[0]} | #{board[1]} | #{board[2]} "
+  puts horizontal_lines
+  puts " #{board[3]} | #{board[4]} | #{board[5]} "
+  puts horizontal_lines
+  puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
-  display_board($board)
+
+display_board([" "," "," "," "," ","X"," "," "," "])
