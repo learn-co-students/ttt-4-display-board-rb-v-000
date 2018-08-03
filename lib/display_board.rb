@@ -2,6 +2,7 @@
 # out the current state.
 
 board = Array.new(9, " ")
+#  same as board = [" "," "," "," "," "," "," "," "," "]
 
 def display_board (board)
 
