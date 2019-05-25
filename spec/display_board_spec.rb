@@ -165,11 +165,11 @@ describe "#display_board in 'lib/display_board.rb" do
 
       # *** Edit the lines below ***
       # *** Uncomment the lines below ***
-       expect(rows[0]).to eq(" X  | X  | X  ")
+       expect(rows[0]).to eq(" X | X | X ")
        expect(rows[1]).to eq("-----------")
-       expect(rows[2]).to eq(" X  | X  | X  ")
+       expect(rows[2]).to eq(" X | X | X ")
        expect(rows[3]).to eq("-----------")
-       expect(rows[4]).to eq(" X  | X  | X  ")
+       expect(rows[4]).to eq(" X | X | X ")
 
       # *** Comment the line below by adding a # at the line start ***
     #  expect(true).to be(true)
@@ -183,11 +183,11 @@ describe "#display_board in 'lib/display_board.rb" do
       output = capture_puts{ display_board(board) } if defined?(display_board)
       rows = output.split("\n")
 
-      expect(rows[0]).to eq(" O  | O  | O  ")
+      expect(rows[0]).to eq(" O | O | O ")
       expect(rows[1]).to eq("-----------")
-      expect(rows[2]).to eq(" O  | O  | O  ")
+      expect(rows[2]).to eq(" O | O | O ")
       expect(rows[3]).to eq("-----------")
-      expect(rows[4]).to eq(" O  | O  | O  ")
+      expect(rows[4]).to eq(" O | O | O ")
 
       # Hint: You should be able to copy the code in the previous it example
       # and make a few simple edits to convert the previous example to this
