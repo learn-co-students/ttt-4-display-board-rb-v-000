@@ -1,4 +1,4 @@
-# Displaying a Tic Tac Toe Board
+H# Displaying a Tic Tac Toe Board
 
 ## Overview
 
