@@ -26,7 +26,6 @@ describe "#display_board in 'lib/display_board.rb" do
       expect(rows[2]).to eq("   | X |   ")
       expect(rows[3]).to eq("-----------")
       expect(rows[4]).to eq("   |   |   ")
-
     end
 
     it 'prints a board with O in the top left' do
