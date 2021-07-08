@@ -1,0 +1,55 @@
+= ..ssppeecc
+
+(from gem activerecord-4.2.6)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  AAccttiivveeRReeccoorrdd::::CCoonnnneeccttiioonnAAddaapptteerrss::::CCoonnnneeccttiioonnPPooooll
+------------------------------------------------------------------------------
+
+
+(from gem bundler-1.12.5)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  CCoommppaaccttIInnddeexxCClliieenntt
+------------------------------------------------------------------------------
+  spec(name, version, platform = nil)
+
+------------------------------------------------------------------------------
+
+
+(from gem bundler-1.12.5)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  BBuunnddlleerr::::GGeemmIInnssttaalllleerr
+------------------------------------------------------------------------------
+
+
+(from gem bundler-1.12.5)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  BBuunnddlleerr::::SSoouurrccee::::PPaatthh::::IInnssttaalllleerr
+------------------------------------------------------------------------------
+
+
+(from gem capybara-2.7.1)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  SSppeeccHHeellppeerr
+------------------------------------------------------------------------------
+  spec(name, options={}, &block)
+
+------------------------------------------------------------------------------
+
+
+(from gem bundler-1.12.5)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  PPaarraalllleellIInnssttaalllleerr::::SSppeeccIInnssttaallllaattiioonn
+------------------------------------------------------------------------------
+
+
+(from gem pry-0.10.3)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  PPrryy::::PPlluuggiinnMMaannaaggeerr::::PPlluuggiinn
+------------------------------------------------------------------------------
+
+
+(from gem pry-0.10.3)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  RRuubbyyggeemm
+------------------------------------------------------------------------------
+  spec(name)
+
+------------------------------------------------------------------------------
+
+Get the gem spec object for the given gem name.
+
+@param [String] name @return [Gem::Specification]
+
+
